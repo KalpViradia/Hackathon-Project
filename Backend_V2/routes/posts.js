@@ -2,13 +2,14 @@ const express = require('express');
 const router = express.Router();
 const postController = require('../controllers/postController');
 const auth = require('../middlewares/auth');
+const mediaUpload = require('../middlewares/fileUpload');
 const { body } = require('express-validator');
 
-// Create post
+// Create post with media upload
 router.post('/', [
   auth,
-  body('content').trim().notEmpty(),
-  body('image').optional().isURL()
+  mediaUpload.single('file'), // Changed from 'media' to 'file' to match frontend
+  body('content').optional().trim()
 ], postController.createPost);
 
 // Get feed & explore

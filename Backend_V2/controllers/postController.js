@@ -1,20 +1,31 @@
 const Post = require('../models/Post');
 const Comment = require('../models/Comment');
 const User = require('../models/User');
+const cloudinary = require('../config/cloudinary');
 
 exports.createPost = async (req, res) => {
   try {
-    const { content, image } = req.body;
-    if (!content && !image) {
-      return res.status(400).json({ message: 'Content or image is required' });
+    const { content } = req.body;
+    
+    if (!content && !req.file) {
+      return res.status(400).json({ message: 'Content or media is required' });
     }
 
-    const post = new Post({
+    const postData = {
       user: req.user.id,
-      content,
-      image
-    });
+      content: content || '',
+    };
 
+    // Handle media upload if file exists
+    if (req.file) {
+      postData.media = {
+        url: req.file.path, // Cloudinary URL
+        type: req.file.mimetype.startsWith('video/') ? 'video' : 'image',
+        publicId: req.file.filename // Cloudinary public ID
+      };
+    }
+
+    const post = new Post(postData);
     await post.save();
     await post.populate('user', 'username avatar');
 
@@ -23,8 +34,8 @@ exports.createPost = async (req, res) => {
       post
     });
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: 'Error creating post' });
+    console.error('Post creation error:', err);
+    res.status(500).json({ message: 'Error creating post', error: err.message });
   }
 };
 
@@ -142,6 +153,12 @@ exports.deletePost = async (req, res) => {
     const post = await Post.findById(req.params.id);
     if (!post) return res.status(404).json({ message: 'Post not found' });
     if (!post.user.equals(req.user._id)) return res.status(403).json({ message: 'Not allowed' });
+
+    // Delete media from Cloudinary if exists
+    if (post.media && post.media.publicId) {
+      await cloudinary.uploader.destroy(post.media.publicId);
+    }
+
     await post.remove();
     res.status(204).send();
   } catch (err) {

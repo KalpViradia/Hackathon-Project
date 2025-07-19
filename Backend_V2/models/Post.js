@@ -7,6 +7,15 @@ const PostSchema = new mongoose.Schema({
   likes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
   bookmarks: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
   comments: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Comment' }],
+  media: {
+    url: String,
+    type: {
+      type: String,
+      enum: ['image', 'video', null],
+      default: null
+    },
+    publicId: String
+  },
 }, { timestamps: true });
 
-module.exports = mongoose.model('Post', PostSchema); 
+module.exports = mongoose.model('Post', PostSchema);

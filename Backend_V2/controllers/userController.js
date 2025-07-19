@@ -92,27 +92,53 @@ exports.followUser = async (req, res) => {
 
 exports.getFollowers = async (req, res) => {
   try {
-    console.log('👉 req.user:', req.user); // log user object
-    const user = await User.findById(req.user._id)
-      .populate('followers', '_id username');
+    const user = await User.findById(req.user.id)  // Changed from _id to id
+      .populate({
+        path: 'followers',
+        select: 'username avatar bio',  // Added more fields
+        options: { sort: { username: 1 } }  // Sort alphabetically
+      });
     
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    res.status(200).json(user.followers);
+    res.status(200).json({
+      success: true,
+      followers: user.followers || []
+    });
   } catch (err) {
-    console.error('❌ getFollowers Error:', err);
-    res.status(500).json({ message: 'Error fetching user' });
+    console.error('GetFollowers Error:', err.message);
+    res.status(500).json({ 
+      message: 'Error fetching followers',
+      error: process.env.NODE_ENV === 'development' ? err.message : undefined
+    });
   }
 };
 
 exports.getFollowing = async (req, res) => {
   try {
-    const user = await User.findById(req.user._id).populate('following', '_id username');
-    res.status(200).json(user.following);
+    const user = await User.findById(req.user.id)  // Changed from _id to id
+      .populate({
+        path: 'following',
+        select: 'username avatar bio',  // Added more fields
+        options: { sort: { username: 1 } }  // Sort alphabetically
+      });
+
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    res.status(200).json({
+      success: true,
+      following: user.following || []
+    });
   } catch (err) {
-    res.status(500).json({ message: 'Server error' });
+    console.error('GetFollowing Error:', err.message);
+    res.status(500).json({ 
+      message: 'Error fetching following list',
+      error: process.env.NODE_ENV === 'development' ? err.message : undefined
+    });
   }
 };
 
