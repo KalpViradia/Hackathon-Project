@@ -1,0 +1,1445 @@
+[{
+  "_id": {
+    "$oid": "687929a1fbfea0230f1be1c8"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T16:49:37.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:49:37.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68792a1a6cef0fbfd090a37e"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68792a1a6cef0fbfd090a389"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T16:51:38.207Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:51:39.051Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68792a1e6cef0fbfd090a3a1"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T16:51:42.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:51:42.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68792af98cd082549ff694b1"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68792afa8cd082549ff694bc"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T16:55:21.226Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:55:22.103Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68792aff8cd082549ff694d4"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T16:55:27.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:55:27.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879370c3ed81809530680e1"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "6879370d3ed81809530680ec"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T17:46:52.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:46:53.474Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "687937113ed8180953068106"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T17:46:57.586Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:46:57.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793a0201b117e32c422bb6"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793a0301b117e32c422bc1"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T17:59:30.657Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:59:32.097Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793a0b01b117e32c422bdb"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T17:59:39.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:59:39.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793a5d176f2ce985eb843b"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793a5e176f2ce985eb8446"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T18:01:01.163Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:01:02.426Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793a64176f2ce985eb8460"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:01:08.672Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:01:08.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793af338e4a357e9e9d06e"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793af438e4a357e9e9d079"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T18:03:31.587Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:03:32.907Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793afc38e4a357e9e9d097"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:03:40.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:03:40.743Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793b7a0535bd543b112932"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793b7b0535bd543b11293d"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T18:05:46.830Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:05:47.787Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793b820535bd543b11295b"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:05:54.637Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:05:54.637Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793bd36f491d078f3071f5"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793bd46f491d078f307200"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T18:07:15.566Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:07:16.747Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793bdb6f491d078f30721e"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:07:23.750Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:07:23.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793c67bf38f0ce1015c758"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793c68bf38f0ce1015c763"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T18:09:43.635Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:09:44.932Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793c70bf38f0ce1015c781"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:09:52.217Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:09:52.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793debd4f9fd9bb7d72d4e"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793decd4f9fd9bb7d72d59"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T18:16:11.990Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:16:12.888Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793df3d4f9fd9bb7d72d77"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:16:19.350Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:16:19.350Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793e5990d6377a774a433a"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "68793e5a90d6377a774a4345"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-17T18:18:01.413Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:18:02.333Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68793e6090d6377a774a4363"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:18:08.098Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:18:08.098Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c0bbb43b165e9e9a22ba"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "6879c0bbb43b165e9e9a22c5"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-18T03:34:19.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:34:19.826Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6879c0c0b43b165e9e9a22e3"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:34:24.120Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:34:24.120Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c13c8f09739819a0da33"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "6879c13c8f09739819a0da3e"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-18T03:36:28.444Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:36:28.766Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6879c1418f09739819a0da69"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:36:33.793Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:36:33.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c1428f09739819a0da74"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:36:34.496Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:36:34.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c1428f09739819a0da85"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:36:34.616Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:36:34.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c2ab76b5f32f4acd6800"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:42:35.811Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:42:35.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c2ac76b5f32f4acd6808"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "6879c2ad76b5f32f4acd6823"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-18T03:42:36.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:42:37.336Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6879c2ac76b5f32f4acd6816"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:42:36.562Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:42:36.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c2b176b5f32f4acd6840"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:42:41.526Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:42:41.526Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a45f322f8443de2dcf115"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:02:43.053Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:02:43.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a45f322f8443de2dcf11d"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "687a45f422f8443de2dcf139"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-18T13:02:43.520Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:02:44.778Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "687a45f322f8443de2dcf124"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:02:43.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:02:43.651Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a45fc22f8443de2dcf159"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:02:52.837Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:02:52.837Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a467ac058220d11d8b627"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:04:58.531Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:04:58.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a467ac058220d11d8b62e"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "687a467bc058220d11d8b64a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-18T13:04:58.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:05:00.012Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "687a467bc058220d11d8b637"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:04:59.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:04:59.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a4682c058220d11d8b66b"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:05:06.602Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:05:06.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a4739c058220d11d8b692"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:08:09.166Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:08:09.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a4739c058220d11d8b695"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "687a473ac058220d11d8b6b0"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-18T13:08:09.278Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:08:10.189Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "687a4739c058220d11d8b6a2"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:08:09.584Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:08:09.584Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a4740c058220d11d8b6d4"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:08:16.702Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:08:16.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b342227d07fa5d4d0fc7f"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T05:58:58.174Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T05:58:58.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b342327d07fa5d4d0fc8a"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "687b342327d07fa5d4d0fca5"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-19T05:58:59.012Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T05:58:59.898Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "687b342327d07fa5d4d0fc97"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T05:58:59.193Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T05:58:59.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b342727d07fa5d4d0fcc5"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T05:59:03.378Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T05:59:03.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b4853d719e6a569c05b2b"
+  },
+  "user": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "content": "Second message send",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T07:25:07.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T07:25:07.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b2dd719e6a569c05b47"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:45:33.911Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:45:33.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b2ed719e6a569c05b54"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:45:34.236Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:45:34.236Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b2ed719e6a569c05b5e"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "687b5b30d719e6a569c05b70"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-19T08:45:34.610Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:45:36.401Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "687b5b35d719e6a569c05b8e"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:45:41.530Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:45:41.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b99d719e6a569c05bb5"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:47:21.667Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:47:21.667Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b99d719e6a569c05bb9"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "My first test post",
+  "image": "https://example.com/post1.jpg",
+  "likes": [
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    },
+    {
+      "$oid": "687b38f127d07fa5d4d0fcd1"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "687b5b9ad719e6a569c05bd6"
+    },
+    {
+      "$oid": "687c64c84b9a719ad888340b"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-19T08:47:21.887Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T03:38:48.702Z"
+  },
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "687b5b9ad719e6a569c05bc4"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Content to remove",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:47:22.023Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:47:22.023Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b9ed719e6a569c05bf7"
+  },
+  "user": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "content": "Admin post to remove",
+  "image": "",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:47:26.267Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:47:26.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b6f12a3306ab64853df1d"
+  },
+  "user": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "content": "Post with Image",
+  "likes": [
+    {
+      "$oid": "687b38f127d07fa5d4d0fcd1"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [
+    {
+      "$oid": "687c5aaa4b9a719ad8883175"
+    }
+  ],
+  "media": {
+    "url": "https://res.cloudinary.com/dzlefcthn/image/upload/v1752919868/social_media_posts/mrkwp0xzvz4ptpu6euzi.jpg",
+    "type": "image",
+    "publicId": "social_media_posts/mrkwp0xzvz4ptpu6euzi"
+  },
+  "createdAt": {
+    "$date": "2025-07-19T10:10:26.060Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T03:13:38.423Z"
+  },
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "687bfc0ab8cbe20057b3b84b"
+  },
+  "user": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "content": "hello",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "media": {
+    "type": null
+  },
+  "createdAt": {
+    "$date": "2025-07-19T20:11:54.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T20:11:54.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687bfd98b8cbe20057b3b869"
+  },
+  "user": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "content": "second post with image",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "media": {
+    "url": "https://res.cloudinary.com/dzlefcthn/image/upload/v1752956356/social_media_posts/ud57cffdfo0xpzmk8gpa.jpg",
+    "type": "image",
+    "publicId": "social_media_posts/ud57cffdfo0xpzmk8gpa"
+  },
+  "createdAt": {
+    "$date": "2025-07-19T20:18:32.686Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T20:18:32.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687c397d190d6d60f79de775"
+  },
+  "user": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "content": "Post 3",
+  "likes": [],
+  "bookmarks": [],
+  "comments": [],
+  "media": {
+    "url": "https://res.cloudinary.com/dzlefcthn/image/upload/v1752971689/social_media_posts/hfasrgcbbduubdc6lfxf.jpg",
+    "type": "image",
+    "publicId": "social_media_posts/hfasrgcbbduubdc6lfxf"
+  },
+  "createdAt": {
+    "$date": "2025-07-20T00:34:05.604Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T00:34:05.604Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687c54014b9a719ad8883059"
+  },
+  "user": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "content": "Post 4",
+  "likes": [
+    {
+      "$oid": "68793f0d90d6377a774a436f"
+    }
+  ],
+  "bookmarks": [],
+  "comments": [],
+  "media": {
+    "type": null
+  },
+  "createdAt": {
+    "$date": "2025-07-20T02:27:13.822Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T06:01:52.335Z"
+  },
+  "__v": 1
+}]

@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "687b8517528bb0f29e5867ed"
+  },
+  "user": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "caption": "Check out my latest reel!",
+  "video": {
+    "url": "https://res.cloudinary.com/dzlefcthn/image/upload/v1752925506/uploads/x7p11mq9gcuf8lx4fyu4.jpg",
+    "publicId": "uploads/x7p11mq9gcuf8lx4fyu4",
+    "thumbnail": "https://res.cloudinary.com/dzlefcthn/image/upload/w_720,h_1280,c_fill/v1752925506/uploads/x7p11mq9gcuf8lx4fyu4.jpg",
+    "duration": null
+  },
+  "likes": [
+    {
+      "$oid": "687b4539d719e6a569c05b01"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "687b89176a01babf118d0338"
+    }
+  ],
+  "shares": 2,
+  "views": 2,
+  "createdAt": {
+    "$date": "2025-07-19T11:44:23.933Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T12:01:27.522Z"
+  },
+  "__v": 2
+}]

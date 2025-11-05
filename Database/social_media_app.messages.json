@@ -1,0 +1,227 @@
+[{
+  "_id": {
+    "$oid": "6879299dfbfea0230f1be1b9"
+  },
+  "sender": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "receiver": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Hello!",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-17T16:49:33.036Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:49:33.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687934389401bbf50538e219"
+  },
+  "sender": {
+    "$oid": "68792ba78cd082549ff694df"
+  },
+  "receiver": {
+    "$oid": "6879018e410859b4c9a0c555"
+  },
+  "content": "Hello!",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-17T17:34:48.946Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:34:48.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b4657d719e6a569c05b0e"
+  },
+  "sender": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "receiver": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "Hello 101",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-19T07:16:39.737Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T07:16:39.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b471fd719e6a569c05b18"
+  },
+  "sender": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "receiver": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "content": "Hello 101",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-19T07:19:59.085Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T07:19:59.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b4748d719e6a569c05b22"
+  },
+  "sender": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "receiver": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "content": "Second message send",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-19T07:20:40.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T07:20:40.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b8799cb01c7fb21d0a64f"
+  },
+  "sender": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "receiver": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "content": "Shared a reel with you!",
+  "read": false,
+  "reelShare": {
+    "reelId": {
+      "$oid": "687b8517528bb0f29e5867ed"
+    },
+    "thumbnail": "https://res.cloudinary.com/dzlefcthn/image/upload/w_720,h_1280,c_fill/v1752925506/uploads/x7p11mq9gcuf8lx4fyu4.jpg",
+    "caption": "Check out my latest reel!"
+  },
+  "createdAt": {
+    "$date": "2025-07-19T11:55:05.090Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T11:55:05.090Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687c58de4b9a719ad88830a5"
+  },
+  "sender": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "receiver": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "content": "hello",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-20T02:47:58.021Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T02:47:58.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687c59434b9a719ad8883117"
+  },
+  "sender": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "receiver": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "content": "my first message",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-20T02:49:39.136Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T02:49:39.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687c595a4b9a719ad8883121"
+  },
+  "sender": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "receiver": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "content": "first message to you",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-20T02:50:02.512Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T02:50:02.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687c5ee74b9a719ad8883227"
+  },
+  "sender": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "receiver": {
+    "$oid": "6879c1438f09739819a0da92"
+  },
+  "content": "Shared a post with you: http://localhost:3000/posts/687b6f12a3306ab64853df1d",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-20T03:13:43.787Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T03:13:43.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687c76cd153f09b1deb8f2c8"
+  },
+  "sender": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "receiver": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "content": "meet at 3?",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-07-20T04:55:41.814Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T04:55:41.814Z"
+  },
+  "__v": 0
+}]

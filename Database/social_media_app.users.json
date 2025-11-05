@@ -1,0 +1,264 @@
+[{
+  "_id": {
+    "$oid": "6879018e410859b4c9a0c555"
+  },
+  "username": "testuser",
+  "email": "testuser@example.com",
+  "password": "$2a$10$Oh0ZwQtOuMEX58wHZuUg3OAbFumVEntcWKe5yYtgxmIEN9cEw0uTy",
+  "followers": [],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-07-17T13:58:38.978Z"
+  },
+  "__v": 0,
+  "isBanned": true,
+  "updatedAt": {
+    "$date": "2025-07-17T18:23:30.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "username": "tester1",
+  "email": "tester1@example.com",
+  "password": "$2b$10$N1XIy/OxMvFsSqh0J0woGeS7Tbk4HbpCATZB4demqfjt7yNRtXCO6",
+  "avatar": "https://example.com/avatar2.jpg",
+  "followers": [
+    {
+      "$oid": "68792ba78cd082549ff694df"
+    }
+  ],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-17T16:49:30.814Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:47:21.549Z"
+  },
+  "__v": 1,
+  "bio": "This is a test bio"
+},
+{
+  "_id": {
+    "$oid": "687929a1fbfea0230f1be1c1"
+  },
+  "username": "admin1",
+  "email": "admin1@example.com",
+  "password": "$2b$10$011SgManTKn3Lubc2nBFke6jzOC2KpQQmuyvzIPbXSd4Thog9/2PC",
+  "avatar": "https://example.com/avatar2.jpg",
+  "followers": [],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-17T16:49:37.222Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:49:37.222Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68792ba78cd082549ff694df"
+  },
+  "username": "tester2",
+  "email": "tester2@example.com",
+  "password": "$2b$10$waQUoqWQguOXUd3uyD6fleqT7dd/FShN0U9HBbeR7KoliMKQadQaC",
+  "avatar": "https://example.com/avatar2.jpg",
+  "followers": [
+    {
+      "$oid": "68792ba78cd082549ff694df"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "68792ba78cd082549ff694df"
+    },
+    {
+      "$oid": "6879299afbfea0230f1be198"
+    }
+  ],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-17T16:58:15.082Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:12:54.273Z"
+  },
+  "__v": 3,
+  "bio": "This is a test bio"
+},
+{
+  "_id": {
+    "$oid": "6879351723318462ddce59f8"
+  },
+  "username": "tester3",
+  "email": "tester3@example.com",
+  "password": "$2b$12$Vi1qTVikmYvhxANRsNjfneA8e4EyWZmtb0shHv1ZwCgoxI9KNw3Ie",
+  "avatar": "https://example.com/avatar2.jpg",
+  "followers": [],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-17T17:38:31.427Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:41:01.431Z"
+  },
+  "__v": 0,
+  "bio": "This is a test bio"
+},
+{
+  "_id": {
+    "$oid": "68793f0d90d6377a774a436f"
+  },
+  "username": "admin2",
+  "email": "admin2@example.com",
+  "password": "$2b$12$vad0A/AjDE2WApSOb1OAx.SAXgRyPTm0E8ukiRctCf7CzaVABmC0e",
+  "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=admin2",
+  "followers": [],
+  "following": [],
+  "blocked": [],
+  "isAdmin": true,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-17T18:21:01.711Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:21:01.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c1428f09739819a0da77"
+  },
+  "username": "tobebanned",
+  "email": "banned@example.com",
+  "password": "$2b$12$cjJqDrbrC6kdbqFRR4wOmOxqYOu3fnLFg7/YOosTMJEqKaB0xYqb6",
+  "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=tobebanned",
+  "followers": [],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-18T03:36:34.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:36:34.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c1438f09739819a0da92"
+  },
+  "username": "normal",
+  "email": "normal@example.com",
+  "password": "$2b$12$8KDWntVn1Bw4Ljyt9.WtcOlBadIx3BwDfI9PjmFDsGImfedFNMjX6",
+  "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=normal",
+  "followers": [
+    {
+      "$oid": "687b38f127d07fa5d4d0fcd1"
+    }
+  ],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-18T03:36:35.447Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T06:23:03.997Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "687b38f127d07fa5d4d0fcd1"
+  },
+  "username": "testuser100",
+  "email": "test100@example.com",
+  "password": "$2b$12$eJnsl0CCQHhu4F71sixK2ufIoZI1YPHFgnNFUWdFHdilU3lJguZEy",
+  "avatar": {
+    "url": "https://res.cloudinary.com/dzlefcthn/image/upload/v1752927441/avatars/q6dxdipgsuit9xnsqdcf.jpg",
+    "publicId": "avatars/q6dxdipgsuit9xnsqdcf"
+  },
+  "followers": [],
+  "following": [
+    {
+      "$oid": "6879c1438f09739819a0da92"
+    }
+  ],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-19T06:19:29.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T12:16:38.689Z"
+  },
+  "__v": 1,
+  "bio": "Updated my Profile Pic."
+},
+{
+  "_id": {
+    "$oid": "687b4539d719e6a569c05b01"
+  },
+  "username": "testuser101",
+  "email": "test101@example.com",
+  "password": "$2b$12$D9xTy3XdiX2g4ICpVCGaguZJb5GytOjtUamrwdTAR7QRvsZmChco.",
+  "avatar": {
+    "url": "https://res.cloudinary.com/dzlefcthn/image/upload/v1752987454/avatars/aowk8qb9u9tn0ivhvnrh.jpg",
+    "publicId": "avatars/aowk8qb9u9tn0ivhvnrh"
+  },
+  "followers": [],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-19T07:11:53.699Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T04:56:49.980Z"
+  },
+  "__v": 0,
+  "bio": ""
+},
+{
+  "_id": {
+    "$oid": "687b71f7e9cf6a7e44abe515"
+  },
+  "username": "varun",
+  "email": "dhdhdhdi7383@gmail.com",
+  "password": "$2b$12$wpir7OlgYNmiNvdXULG/7O9hzYNk00TlS4NyJfp2B1DOWeQfNSggS",
+  "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=varun",
+  "followers": [],
+  "following": [],
+  "blocked": [],
+  "isAdmin": false,
+  "isBanned": false,
+  "createdAt": {
+    "$date": "2025-07-19T10:22:47.575Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T10:22:47.575Z"
+  },
+  "__v": 0
+}]

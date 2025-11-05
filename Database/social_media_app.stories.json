@@ -1,0 +1,644 @@
+[{
+  "_id": {
+    "$oid": "6879299cfbfea0230f1be1b2"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [
+    null
+  ],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T16:49:32.583Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:28:40.801Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68792a1b6cef0fbfd090a391"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [
+    {
+      "$oid": "687b38f127d07fa5d4d0fcd1"
+    }
+  ],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T16:51:39.542Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-20T03:39:18.116Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68792afa8cd082549ff694c4"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T16:55:22.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T16:55:22.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879370d3ed81809530680f4"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T17:46:53.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:46:53.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793a0401b117e32c422bc9"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T17:59:32.984Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T17:59:32.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793a5f176f2ce985eb844e"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:01:03.187Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:01:03.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793af538e4a357e9e9d081"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:03:33.504Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:03:33.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793b7c0535bd543b112945"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:05:48.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:05:48.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793bd56f491d078f307208"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:07:17.386Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:07:17.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793c69bf38f0ce1015c76b"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:09:45.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:09:45.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793dedd4f9fd9bb7d72d61"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:16:13.357Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:16:13.357Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68793e5a90d6377a774a434d"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-17T18:18:02.850Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-17T18:18:02.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c0bbb43b165e9e9a22cd"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:34:19.998Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:34:19.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c13c8f09739819a0da46"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:36:28.943Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:36:28.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c1428f09739819a0da7a"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-19T03:36:34.529Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:36:34.530Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:36:34.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c2ac76b5f32f4acd6810"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-19T03:42:36.509Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:42:36.513Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:42:36.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6879c2ad76b5f32f4acd682d"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T03:42:37.736Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T03:42:37.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a45f322f8443de2dcf128"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-19T13:02:43.713Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:02:43.714Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:02:43.714Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a45f522f8443de2dcf143"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:02:45.257Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:02:45.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a467bc058220d11d8b63b"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-19T13:04:59.224Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:04:59.225Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:04:59.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a467cc058220d11d8b655"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:05:00.638Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:05:00.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a4739c058220d11d8b6a9"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-19T13:08:09.727Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:08:09.728Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:08:09.728Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687a473ac058220d11d8b6be"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-18T13:08:10.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-18T13:08:10.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b342327d07fa5d4d0fc8e"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-20T05:58:59.122Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-19T05:58:59.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T05:58:59.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b342427d07fa5d4d0fcaf"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-19T05:59:00.347Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T05:59:00.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b2ed719e6a569c05b5c"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-20T08:45:34.597Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:45:34.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:45:34.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b30d719e6a569c05b78"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:45:36.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:45:36.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b9ad719e6a569c05bcb"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2025-07-20T08:47:22.100Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:47:22.100Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:47:22.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b5b9bd719e6a569c05be1"
+  },
+  "user": {
+    "$oid": "6879299afbfea0230f1be198"
+  },
+  "media": "https://example.com/story1.jpg",
+  "expiresAt": {
+    "$date": "2099-12-31T12:00:00.000Z"
+  },
+  "archived": false,
+  "viewers": [],
+  "replies": [],
+  "createdAt": {
+    "$date": "2025-07-19T08:47:23.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T08:47:23.192Z"
+  },
+  "__v": 0
+}]
