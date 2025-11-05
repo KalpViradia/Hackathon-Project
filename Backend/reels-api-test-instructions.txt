@@ -1,0 +1,238 @@
+# REELS API TEST INSTRUCTIONS
+
+Base URL: http://localhost:5000/api/reels
+
+## 1. CREATE REEL
+POST /
+Headers:
+  Authorization: Bearer <your_token>
+  Content-Type: multipart/form-data
+
+Body (form-data):
+Key: video
+Type: File
+Value: <select_video_file>
+
+Key: caption
+Value: My first reel! #awesome #fun
+
+Key: music
+Value: {
+  "name": "Cool Song",
+  "artist": "Amazing Artist",
+  "url": "https://example.com/song.mp3"
+}
+
+Expected Response (201):
+{
+  "message": "Reel created successfully",
+  "reel": {
+    "id": "<reel_id>",
+    "user": {
+      "id": "<user_id>",
+      "username": "testuser",
+      "avatar": "https://example.com/avatar.jpg"
+    },
+    "caption": "My first reel! #awesome #fun",
+    "video": {
+      "url": "https://res.cloudinary.com/your-cloud/video/upload/v1234/reels/video123.mp4",
+      "thumbnail": "https://res.cloudinary.com/your-cloud/video/upload/v1234/reels/video123_thumb.jpg",
+      "duration": 15
+    },
+    "likes": [],
+    "comments": [],
+    "shares": 0,
+    "views": 0,
+    "music": {
+      "name": "Cool Song",
+      "artist": "Amazing Artist",
+      "url": "https://example.com/song.mp3"
+    },
+    "createdAt": "2024-03-15T12:00:00.000Z"
+  }
+}
+
+## 2. GET REELS FEED
+GET /
+Headers:
+  Authorization: Bearer <your_token>
+
+Expected Response (200):
+{
+  "reels": [
+    {
+      // Similar to create reel response
+    }
+  ]
+}
+
+## 3. GET USER REELS
+GET /user/<user_id>
+Headers:
+  Authorization: Bearer <your_token>
+
+Expected Response (200):
+{
+  "reels": [
+    {
+      // Reel object
+    }
+  ]
+}
+
+## 4. GET SINGLE REEL
+GET /<reel_id>
+Headers:
+  Authorization: Bearer <your_token>
+
+Expected Response (200):
+{
+  "id": "<reel_id>",
+  "user": {
+    "id": "<user_id>",
+    "username": "testuser",
+    "avatar": "https://example.com/avatar.jpg"
+  },
+  "caption": "My first reel! #awesome #fun",
+  "video": {
+    "url": "https://res.cloudinary.com/your-cloud/video/upload/v1234/reels/video123.mp4",
+    "thumbnail": "https://res.cloudinary.com/your-cloud/video/upload/v1234/reels/video123_thumb.jpg",
+    "duration": 15
+  },
+  "likes": ["<user_id1>", "<user_id2>"],
+  "comments": [
+    {
+      "id": "<comment_id>",
+      "user": {
+        "id": "<user_id>",
+        "username": "commenter",
+        "avatar": "https://example.com/avatar2.jpg"
+      },
+      "content": "Amazing reel!",
+      "createdAt": "2024-03-15T12:30:00.000Z"
+    }
+  ],
+  "shares": 5,
+  "views": 100
+}
+
+## 5. LIKE/UNLIKE REEL
+POST /<reel_id>/like
+Headers:
+  Authorization: Bearer <your_token>
+
+Expected Response (200):
+{
+  "message": "Reel liked"
+}
+// or
+{
+  "message": "Reel unliked"
+}
+
+## 6. COMMENT ON REEL
+POST /<reel_id>/comment
+Headers:
+  Authorization: Bearer <your_token>
+  Content-Type: application/json
+
+Request Body:
+{
+  "content": "This is awesome! 🔥"
+}
+
+Expected Response (201):
+{
+  "message": "Comment added",
+  "comment": {
+    "id": "<comment_id>",
+    "user": {
+      "id": "<user_id>",
+      "username": "commenter",
+      "avatar": "https://example.com/avatar.jpg"
+    },
+    "content": "This is awesome! 🔥",
+    "createdAt": "2024-03-15T12:45:00.000Z"
+  }
+}
+
+## 7. SHARE REEL
+POST /<reel_id>/share
+Headers:
+  Authorization: Bearer <your_token>
+
+Expected Response (200):
+{
+  "message": "Reel shared",
+  "shareCount": 6
+}
+
+## 8. DELETE REEL
+DELETE /<reel_id>
+Headers:
+  Authorization: Bearer <your_token>
+
+Expected Response (200):
+{
+  "message": "Reel deleted successfully"
+}
+
+## ERROR RESPONSES
+
+1. Unauthorized (401):
+{
+  "message": "Authentication required"
+}
+
+2. Not Found (404):
+{
+  "message": "Reel not found"
+}
+
+3. Forbidden (403):
+{
+  "message": "Not authorized"
+}
+
+4. Bad Request (400):
+{
+  "message": "Video is required"
+}
+// or
+{
+  "message": "Comment content is required"
+}
+
+5. Server Error (500):
+{
+  "message": "Error <action> reel"
+}
+
+## TESTING CHECKLIST
+
+1. Video Upload:
+   □ Test with valid MP4 file
+   □ Test with invalid file type
+   □ Test with file > 100MB
+   □ Test without video file
+
+2. Interactions:
+   □ Like and unlike same reel
+   □ Comment with valid content
+   □ Comment with empty content
+   □ Share reel multiple times
+   □ View count increments
+
+3. Authorization:
+   □ Test with valid token
+   □ Test with invalid token
+   □ Test with expired token
+   □ Test deleting other user's reel
+
+4. Feed:
+   □ Check pagination
+   □ Verify sort order (newest first)
+   □ Check user details population
+   □ Verify comment population
+
+Note: Replace <your_token>, <user_id>, <reel_id>, and other placeholder values with actual values from your system.
